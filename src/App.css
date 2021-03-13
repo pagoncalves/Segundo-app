@@ -10,7 +10,6 @@
     margin: 20px;
     flex: 1;
     display:flex;/*define que será flexivel, ocupando 100% de largura*/
-     
     flex-direction: column;/*direção dos itens flexiveis*/
     overflow: hidden;/*se um ele ficar mutio grande deve: ocultar o resto*/
     flex-wrap: wrap;/*itens serão quebrados em várias linhas*/
@@ -21,8 +20,6 @@
     flex:1;
     margin: 20px;
     padding: 20px 5px;
-
-     
   }
   
   .Card {
