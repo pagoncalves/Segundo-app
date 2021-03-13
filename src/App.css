@@ -4,28 +4,25 @@
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
-   
-  
   }
+
   .App{
-    
-    /*flex: 1;*/
-    display: flex;/*define que será flexivel, ocupando 100% de largura*/
-    
+    margin: 20px;
+    flex: 1;
+    display:flex;/*define que será flexivel, ocupando 100% de largura*/
+     
+    flex-direction: column;/*direção dos itens flexiveis*/
+    overflow: hidden;/*se um ele ficar mutio grande deve: ocultar o resto*/
     flex-wrap: wrap;/*itens serão quebrados em várias linhas*/
-    
     min-width: 300px;/*largura min entre iten para alterar layout */
-  
   }
   
   .TCard {
-    /*flex:1;*/
+    flex:1;
     margin: 20px;
     padding: 20px 5px;
-   
-    flex-direction: column;/**direção dos itens flexiveis/
-    overflow: hidden;/*se um ele ficar mutio grande deve: ocultar o resto*/
-   
+
+     
   }
   
   .Card {
@@ -33,7 +30,6 @@
     margin: 20px;
     border: 3px solid black;
     border-radius: 10px;
-   
     background-color: gray;
     
     

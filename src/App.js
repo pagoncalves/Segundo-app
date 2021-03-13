@@ -49,9 +49,9 @@ class App extends React.Component {
             <div className="RCard">Passo 1</div>
           </div>
 
-        </div>
+        
 
-        <div className="Card">
+         <div className="Card">
           <p> {this.state.msg}</p>
           <p>{this.state.msg2} </p>
           <p>Nota 1:</p>
@@ -62,16 +62,16 @@ class App extends React.Component {
 
           <div className="RCard">Passo 2 </div>
 
-        </div>
+         </div>
 
-        <div className="Card">
-          <h3>Resultado</h3>
+         <div className="Card">
+          <h3>Média</h3>
           <p>{this.state.media}</p>
           <p>{this.state.status}</p>
 
-          <div className="RCard">Passo 3</div>
-        </div>
-
+          <div className="RCard">Resultado</div>
+         </div>
+         </div>
       </div>
       
     );
