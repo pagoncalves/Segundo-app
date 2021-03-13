@@ -6,7 +6,6 @@ class App extends React.Component {
     super(props)
     this.state = {
       nome: " ",
-      msg: " ",
       status: "",
       n1: 0,
       n2: 0,
@@ -75,7 +74,6 @@ class App extends React.Component {
          </div>}
          </div>
       </div>
-      
     );
   }
 }
